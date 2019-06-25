@@ -115,8 +115,6 @@
 				A918315422C2108D001037B5 /* PayID.podspec */,
 				A918312222C2060B001037B5 /* AppDelegate.h */,
 				A918312322C2060B001037B5 /* AppDelegate.m */,
-				A918312522C2060B001037B5 /* ViewController.h */,
-				A918312622C2060B001037B5 /* ViewController.m */,
 				A918312822C2060B001037B5 /* Main.storyboard */,
 				A918312B22C2060C001037B5 /* Assets.xcassets */,
 				A918312D22C2060C001037B5 /* LaunchScreen.storyboard */,
@@ -174,6 +172,8 @@
 		A918318C22C2404F001037B5 /* ImageSour */ = {
 			isa = PBXGroup;
 			children = (
+				A918312522C2060B001037B5 /* ViewController.h */,
+				A918312622C2060B001037B5 /* ViewController.m */,
 				A918318422C230A5001037B5 /* images.bundle */,
 			);
 			path = ImageSour;

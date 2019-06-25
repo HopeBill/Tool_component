@@ -20,12 +20,12 @@ TODO: Add long description of the pod here.
 #s.source_files = 'PayID/**/*'
 
   s.subspec 'IDF' do |idf|
-    idf.subspec 'ImageSour' do |Im|
-        Im.source_files = 'PayID/IDF/ImageSour/**/*'
-    end
-    idf.subspec 'IDFV' do |ID|
-        ID.source_files = 'PayID/IDF/IDFV/**/*'
-    end
+     idf.subspec 'ImageSour' do |Imag|
+         Imag.source_files = 'PayID/IDF/ImageSour/**/*'
+     end
+     idf.subspec 'IDFV' do |ID|
+         ID.source_files = 'PayID/IDF/IDFV/**/*'
+     end
   end
 
   s.subspec 'HUD' do |hu|
