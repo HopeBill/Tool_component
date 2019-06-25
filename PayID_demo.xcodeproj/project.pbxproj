@@ -16,9 +16,9 @@
 		A918313C22C2060C001037B5 /* PayID_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A918313B22C2060C001037B5 /* PayID_demoTests.m */; };
 		A918314722C2060C001037B5 /* PayID_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A918314622C2060C001037B5 /* PayID_demoUITests.m */; };
 		A918315522C2108D001037B5 /* PayID.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A918315422C2108D001037B5 /* PayID.podspec */; };
-		A918317322C21FB9001037B5 /* IDFVTools.m in Sources */ = {isa = PBXBuildFile; fileRef = A918316A22C21FB9001037B5 /* IDFVTools.m */; };
-		A918317422C21FB9001037B5 /* YJProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A918316D22C21FB9001037B5 /* YJProgressHUD.m */; };
-		A918317522C21FB9001037B5 /* images.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A918316E22C21FB9001037B5 /* images.bundle */; };
+		A918318722C230A5001037B5 /* IDFVTools.m in Sources */ = {isa = PBXBuildFile; fileRef = A918318222C230A5001037B5 /* IDFVTools.m */; };
+		A918318822C230A5001037B5 /* YJProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A918318322C230A5001037B5 /* YJProgressHUD.m */; };
+		A918318922C230A5001037B5 /* images.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A918318422C230A5001037B5 /* images.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,11 +56,11 @@
 		A918314622C2060C001037B5 /* PayID_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayID_demoUITests.m; sourceTree = "<group>"; };
 		A918314822C2060C001037B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A918315422C2108D001037B5 /* PayID.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PayID.podspec; sourceTree = SOURCE_ROOT; };
-		A918316A22C21FB9001037B5 /* IDFVTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDFVTools.m; sourceTree = "<group>"; };
-		A918316B22C21FB9001037B5 /* IDFVTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDFVTools.h; sourceTree = "<group>"; };
-		A918316D22C21FB9001037B5 /* YJProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJProgressHUD.m; sourceTree = "<group>"; };
-		A918316E22C21FB9001037B5 /* images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = images.bundle; sourceTree = "<group>"; };
-		A918316F22C21FB9001037B5 /* YJProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJProgressHUD.h; sourceTree = "<group>"; };
+		A918318222C230A5001037B5 /* IDFVTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDFVTools.m; sourceTree = "<group>"; };
+		A918318322C230A5001037B5 /* YJProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJProgressHUD.m; sourceTree = "<group>"; };
+		A918318422C230A5001037B5 /* images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = images.bundle; sourceTree = "<group>"; };
+		A918318522C230A5001037B5 /* YJProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJProgressHUD.h; sourceTree = "<group>"; };
+		A918318622C230A5001037B5 /* IDFVTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDFVTools.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +111,7 @@
 		A918312122C2060B001037B5 /* PayID_demo */ = {
 			isa = PBXGroup;
 			children = (
-				A918316822C21FB9001037B5 /* PayID */,
+				A918318122C230A5001037B5 /* PayID */,
 				A918315422C2108D001037B5 /* PayID.podspec */,
 				A918312222C2060B001037B5 /* AppDelegate.h */,
 				A918312322C2060B001037B5 /* AppDelegate.m */,
@@ -144,33 +144,17 @@
 			path = PayID_demoUITests;
 			sourceTree = "<group>";
 		};
-		A918316822C21FB9001037B5 /* PayID */ = {
+		A918318122C230A5001037B5 /* PayID */ = {
 			isa = PBXGroup;
 			children = (
-				A918316D22C21FB9001037B5 /* YJProgressHUD.m */,
-				A918316E22C21FB9001037B5 /* images.bundle */,
-				A918316F22C21FB9001037B5 /* YJProgressHUD.h */,
-				A918316B22C21FB9001037B5 /* IDFVTools.h */,
-				A918316A22C21FB9001037B5 /* IDFVTools.m */,
-				A918316922C21FB9001037B5 /* IDFVTools */,
-				A918316C22C21FB9001037B5 /* HUD_module */,
+				A918318222C230A5001037B5 /* IDFVTools.m */,
+				A918318322C230A5001037B5 /* YJProgressHUD.m */,
+				A918318422C230A5001037B5 /* images.bundle */,
+				A918318522C230A5001037B5 /* YJProgressHUD.h */,
+				A918318622C230A5001037B5 /* IDFVTools.h */,
 			);
 			path = PayID;
-			sourceTree = "<group>";
-		};
-		A918316922C21FB9001037B5 /* IDFVTools */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = IDFVTools;
-			sourceTree = "<group>";
-		};
-		A918316C22C21FB9001037B5 /* HUD_module */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = HUD_module;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -275,7 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A918317522C21FB9001037B5 /* images.bundle in Resources */,
+				A918318922C230A5001037B5 /* images.bundle in Resources */,
 				A918315522C2108D001037B5 /* PayID.podspec in Resources */,
 				A918312F22C2060C001037B5 /* LaunchScreen.storyboard in Resources */,
 				A918312C22C2060C001037B5 /* Assets.xcassets in Resources */,
@@ -304,8 +288,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A918317322C21FB9001037B5 /* IDFVTools.m in Sources */,
-				A918317422C21FB9001037B5 /* YJProgressHUD.m in Sources */,
+				A918318722C230A5001037B5 /* IDFVTools.m in Sources */,
+				A918318822C230A5001037B5 /* YJProgressHUD.m in Sources */,
 				A918312722C2060B001037B5 /* ViewController.m in Sources */,
 				A918313222C2060C001037B5 /* main.m in Sources */,
 				A918312422C2060B001037B5 /* AppDelegate.m in Sources */,
