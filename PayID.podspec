@@ -17,14 +17,15 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
- # s.source_files = 'PayID/**/*'
+#s.source_files = 'PayID/**/*'
 
-    s.subspec 'Tool' do |t|
-        t.source_files = 'PayID/IDF/**/*'
-    end
-    s.subspec 'Tool' do |h|
-        t.source_files = 'PayID/HUD/**/*'
-    end
+  s.subspec 'IDF' do |idf|
+    idf.source_files = 'PayID/IDF/**/*'
+  end
+
+  s.subspec 'HUD' do |hu|
+    hu.source_files = 'PayID/HUD/**/*'
+  end
 
   # s.resource_bundles = {
   #   'PayID' => ['PayID/Assets/*.png']
