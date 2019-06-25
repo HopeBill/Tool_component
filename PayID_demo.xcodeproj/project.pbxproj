@@ -19,6 +19,7 @@
 		A918318722C230A5001037B5 /* IDFVTools.m in Sources */ = {isa = PBXBuildFile; fileRef = A918318222C230A5001037B5 /* IDFVTools.m */; };
 		A918318822C230A5001037B5 /* YJProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A918318322C230A5001037B5 /* YJProgressHUD.m */; };
 		A918318922C230A5001037B5 /* images.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A918318422C230A5001037B5 /* images.bundle */; };
+		A918319022C247BA001037B5 /* YZAuthID.m in Sources */ = {isa = PBXBuildFile; fileRef = A918318E22C247BA001037B5 /* YZAuthID.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		A918318422C230A5001037B5 /* images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = images.bundle; sourceTree = "<group>"; };
 		A918318522C230A5001037B5 /* YJProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJProgressHUD.h; sourceTree = "<group>"; };
 		A918318622C230A5001037B5 /* IDFVTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDFVTools.h; sourceTree = "<group>"; };
+		A918318E22C247BA001037B5 /* YZAuthID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZAuthID.m; sourceTree = "<group>"; };
+		A918318F22C247BA001037B5 /* YZAuthID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZAuthID.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +177,8 @@
 		A918318C22C2404F001037B5 /* IDFM */ = {
 			isa = PBXGroup;
 			children = (
+				A918318F22C247BA001037B5 /* YZAuthID.h */,
+				A918318E22C247BA001037B5 /* YZAuthID.m */,
 				A918318422C230A5001037B5 /* images.bundle */,
 			);
 			path = IDFM;
@@ -325,6 +330,7 @@
 				A918312722C2060B001037B5 /* ViewController.m in Sources */,
 				A918313222C2060C001037B5 /* main.m in Sources */,
 				A918312422C2060B001037B5 /* AppDelegate.m in Sources */,
+				A918319022C247BA001037B5 /* YZAuthID.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
