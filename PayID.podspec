@@ -19,21 +19,22 @@ TODO: Add long description of the pod here.
 
 #s.source_files = 'PayID/**/*'
 
-  s.subspec 'IDF' do |idf|
-
-     idf.subspec 'IDFM' do |IM|
-         IM.source_files = 'PayID/IDF/IDFM/**/*'
-     end
-
-     idf.subspec 'IDFV' do |ID|
-         ID.source_files = 'PayID/IDF/IDFV/**/*'
-     end
-
-  end
-
-  s.subspec 'HUD' do |hu|
+    s.subspec 'HUD' do |hu|
     hu.source_files = 'PayID/HUD/**/*'
-  end
+    end
+
+    s.subspec 'IDF' do |idf|
+
+    idf.subspec 'IDFM' do |im|
+    im.source_files = 'PayID/IDF/IDFM/**/*'
+    end
+
+    s.subspec 'IDFV' do |idv|
+    idv.source_files = 'PayID/IDF/IDFV/**/*'
+    end
+
+    end
+
 
   # s.resource_bundles = {
   #   'PayID' => ['PayID/Assets/*.png']
