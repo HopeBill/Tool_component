@@ -165,11 +165,27 @@
 		A918318B22C236E0001037B5 /* IDF */ = {
 			isa = PBXGroup;
 			children = (
+				A918318D22C24173001037B5 /* IDFV */,
+				A918318C22C2404F001037B5 /* Image */,
+			);
+			path = IDF;
+			sourceTree = "<group>";
+		};
+		A918318C22C2404F001037B5 /* Image */ = {
+			isa = PBXGroup;
+			children = (
 				A918318422C230A5001037B5 /* images.bundle */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		A918318D22C24173001037B5 /* IDFV */ = {
+			isa = PBXGroup;
+			children = (
 				A918318622C230A5001037B5 /* IDFVTools.h */,
 				A918318222C230A5001037B5 /* IDFVTools.m */,
 			);
-			path = IDF;
+			path = IDFV;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

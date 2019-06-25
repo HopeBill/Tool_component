@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PayID'
-  s.version          = '0.6'
+  s.version          = '0.7'
   s.summary          = 'PayID.'
 
   s.description      = <<-DESC
@@ -20,7 +20,12 @@ TODO: Add long description of the pod here.
 #s.source_files = 'PayID/**/*'
 
   s.subspec 'IDF' do |idf|
-    idf.source_files = 'PayID/IDF/**/*'
+    idf.subspec 'Image' do |Im|
+        Im.source_files = 'PayID/IDF/Image/**/*'
+    end
+    idf.subspec 'IDFV' do |ID|
+        ID.source_files = 'PayID/IDF/IDFV/**/*'
+    end
   end
 
   s.subspec 'HUD' do |hu|
