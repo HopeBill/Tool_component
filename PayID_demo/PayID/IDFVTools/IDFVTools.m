@@ -13,8 +13,8 @@
 
 {
     //定义存入keychain中的账号 一个标识 表示是某个app存储的内容 bundle id最好
-    NSString * const KEY_USERNAME = @"com.yijiange.com.username0000";
-    NSString * const KEY_PASSWORD = @"com.yijiange.com.password0000";
+    NSString * const KEY_USERNAME = @"com.yijiange.com.username33333";
+    NSString * const KEY_PASSWORD = @"com.yijiange.com.password33333";
     
     //测试用 清除keychain中的内容
     //[IDFVTools delete:KEY_USERNAME_PASSWORD];
