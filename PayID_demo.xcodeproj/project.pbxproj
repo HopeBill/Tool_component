@@ -166,17 +166,17 @@
 			isa = PBXGroup;
 			children = (
 				A918318D22C24173001037B5 /* IDFV */,
-				A918318C22C2404F001037B5 /* ImageSour */,
+				A918318C22C2404F001037B5 /* IDFM */,
 			);
 			path = IDF;
 			sourceTree = "<group>";
 		};
-		A918318C22C2404F001037B5 /* ImageSour */ = {
+		A918318C22C2404F001037B5 /* IDFM */ = {
 			isa = PBXGroup;
 			children = (
 				A918318422C230A5001037B5 /* images.bundle */,
 			);
-			path = ImageSour;
+			path = IDFM;
 			sourceTree = "<group>";
 		};
 		A918318D22C24173001037B5 /* IDFV */ = {
