@@ -15,6 +15,7 @@
 		A918313222C2060C001037B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A918313122C2060C001037B5 /* main.m */; };
 		A918313C22C2060C001037B5 /* PayID_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A918313B22C2060C001037B5 /* PayID_demoTests.m */; };
 		A918314722C2060C001037B5 /* PayID_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A918314622C2060C001037B5 /* PayID_demoUITests.m */; };
+		A918315522C2108D001037B5 /* PayID.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A918315422C2108D001037B5 /* PayID.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		A918314222C2060C001037B5 /* PayID_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayID_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A918314622C2060C001037B5 /* PayID_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayID_demoUITests.m; sourceTree = "<group>"; };
 		A918314822C2060C001037B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A918315422C2108D001037B5 /* PayID.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PayID.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		A918312122C2060B001037B5 /* PayID_demo */ = {
 			isa = PBXGroup;
 			children = (
+				A918315422C2108D001037B5 /* PayID.podspec */,
 				A918312222C2060B001037B5 /* AppDelegate.h */,
 				A918312322C2060B001037B5 /* AppDelegate.m */,
 				A918312522C2060B001037B5 /* ViewController.h */,
@@ -235,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A918315522C2108D001037B5 /* PayID.podspec in Resources */,
 				A918312F22C2060C001037B5 /* LaunchScreen.storyboard in Resources */,
 				A918312C22C2060C001037B5 /* Assets.xcassets in Resources */,
 				A918312A22C2060B001037B5 /* Main.storyboard in Resources */,
