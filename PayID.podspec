@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PayID'
-  s.version          = '0.5'
+  s.version          = '0.6'
   s.summary          = 'PayID.'
 
   s.description      = <<-DESC
@@ -17,8 +17,15 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'PayID/**/*'
-  
+ # s.source_files = 'PayID/**/*'
+
+    s.subspec 'Tool' do |t|
+        t.source_files = 'PayID/IDF/**/*'
+    end
+    s.subspec 'Tool' do |h|
+        t.source_files = 'PayID/HUD/**/*'
+    end
+
   # s.resource_bundles = {
   #   'PayID' => ['PayID/Assets/*.png']
   # }

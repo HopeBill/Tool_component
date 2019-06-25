@@ -147,14 +147,30 @@
 		A918318122C230A5001037B5 /* PayID */ = {
 			isa = PBXGroup;
 			children = (
-				A918318222C230A5001037B5 /* IDFVTools.m */,
-				A918318322C230A5001037B5 /* YJProgressHUD.m */,
-				A918318422C230A5001037B5 /* images.bundle */,
-				A918318522C230A5001037B5 /* YJProgressHUD.h */,
-				A918318622C230A5001037B5 /* IDFVTools.h */,
+				A918318B22C236E0001037B5 /* IDF */,
+				A918318A22C236DB001037B5 /* HUD */,
 			);
 			path = PayID;
 			sourceTree = SOURCE_ROOT;
+		};
+		A918318A22C236DB001037B5 /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				A918318522C230A5001037B5 /* YJProgressHUD.h */,
+				A918318322C230A5001037B5 /* YJProgressHUD.m */,
+			);
+			path = HUD;
+			sourceTree = "<group>";
+		};
+		A918318B22C236E0001037B5 /* IDF */ = {
+			isa = PBXGroup;
+			children = (
+				A918318422C230A5001037B5 /* images.bundle */,
+				A918318622C230A5001037B5 /* IDFVTools.h */,
+				A918318222C230A5001037B5 /* IDFVTools.m */,
+			);
+			path = IDF;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
