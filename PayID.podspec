@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PayID'
-  s.version          = '0.7'
+  s.version          = '0.8'
   s.summary          = 'PayID.'
 
   s.description      = <<-DESC
